@@ -1,13 +1,10 @@
-public class pattern16 {
+public class pattern15 {
     public static void main(String[] args) {
-        char ch='A';
-        int n=5;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<i+1;j++){
+        for(int i=0;i<5;i++){
+            for(char ch='A';ch<'A'-i+5;ch++){
                 System.out.print(ch);
             }
             System.out.println();
-            ch++;
         }
     }
 }
